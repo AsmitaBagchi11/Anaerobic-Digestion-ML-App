@@ -19,10 +19,10 @@ warnings.filterwarnings("ignore")
 
 # ---------------- CONFIG ----------------
 st.set_page_config(page_title="AD ML App", layout="wide")
-st.title("🔬 Anaerobic Digestion ML App")
+st.title("Anaerobic Digestion ML App")
 
 # ---------------- SIDEBAR ----------------
-st.sidebar.title("⚙️ Controls")
+st.sidebar.title("Controls")
 uploaded_file = st.sidebar.file_uploader("Upload CSV", type=["csv"])
 
 # ---------------- INIT SESSION ----------------
